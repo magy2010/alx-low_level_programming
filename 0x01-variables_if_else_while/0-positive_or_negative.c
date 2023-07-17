@@ -2,11 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-*main point - entry point
+*main point - Entry point
 *
-*Description: 0-positive_or_negative
-*
-*Return: 0 (success)
+*Return: Always 0 (success)
 */
 
 int main(void)
