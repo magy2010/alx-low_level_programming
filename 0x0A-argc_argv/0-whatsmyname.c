@@ -8,9 +8,9 @@
  *
  * Return: Always 0 (success)
  */
-int main(int argc ـــattributeـــ((unused)), char *argv[])
+int main(int argc, char const *argv[])
 {
-	printf("%s\n", *array);
-
+	(void)argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
