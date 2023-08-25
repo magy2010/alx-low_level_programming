@@ -3,11 +3,12 @@
  * add_node - adds a node to the beginning of list
  * @head: address of pointer to head node
  * @str: new string to add in the node
- * Return: size of list
+ * Return: returns the address to the new element or NULL
+ * if failed
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	char *dub;
+	char *dup;
 	int len;
 	list_t *new;
 
