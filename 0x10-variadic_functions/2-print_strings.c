@@ -13,6 +13,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *str;
 	va_list ap;
 
+	va_start(ap, n);
+
 	if (!n)
 	{
 		printf("\n");
